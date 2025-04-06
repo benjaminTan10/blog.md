@@ -64,3 +64,55 @@ async function checkArbitrage() {
     executeTrade("buy", "orca", "sell", "raydium");
   }
 }
+
+Message: Message { header: MessageHeader { num_required_signatures: 1,
+ num_readonly_signed_accounts: 0,
+ num_readonly_unsigned_accounts: 4 },
+ account_keys: [ArbBen647Mho7r2f1R3bvxxytD1dG64jUVdfSMu2KC5n,
+ 2BAjLDCWG7eefUPHDfVL3VRzGAoQjzmh3fcFHjUbw95D,
+ 3M6AeNvvqKmEpm1itWtWcPQfwqiy586U2BjBiJa53WbD,
+ G8hbWLmv8RPLycEENKXZy6JsqyQaYu9iFmuC3mDaq7vA,
+ 11111111111111111111111111111111,
+ ComputeBudget111111111111111111111111111111,
+ TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA,
+ ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL],
+ recent_blockhash: 5n8CJfszv9SZxo7ftNaQCzWsymw1tWerRxro7RGPsSCC,
+ instructions: [
+    CompiledInstruction { 
+        program_id_index: 5,
+        accounts: [],
+        data: [2, 192, 92, 21, 0] 
+    },
+    CompiledInstruction { 
+        program_id_index: 5,
+        accounts: [],
+        data: [3, 232, 3, 0, 0, 0, 0, 0, 0] 
+    },
+    CompiledInstruction { 
+        program_id_index: 4,
+        accounts: [0, 1],
+        data: [2, 0, 0, 0, 0, 45, 49, 1, 0, 0, 0, 0] 
+    },
+    CompiledInstruction { 
+        program_id_index: 6,
+        accounts: [1],
+        data: [17] 
+    },
+    CompiledInstruction { 
+        program_id_index: 7,
+        accounts: [0, 3, 0, 8, 4, 6],
+        data: [1] 
+    },
+    CompiledInstruction { 
+        program_id_index: 7,
+        accounts: [0, 2, 0, 9, 4, 6],
+        data: [1] 
+    }
+ ],
+ address_table_lookups: [MessageAddressTableLookup { account_key: 5TcQtDUu2rMSCZV5FajntuV5xNW1aTsCyNoDSME7gUcU,
+ writable_indexes: [],
+ readonly_indexes: [89] },
+ MessageAddressTableLookup { account_key: 7XK9kDdFK2AwGX7uvTRtbLCpePqjNmo8EH1omN2zR45R,
+ writable_indexes: [],
+ readonly_indexes: [245] }] }
+
